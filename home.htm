@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<!-- 
+
+    This HTML document is for the CIS 160 User Interface Design class.
+    
+    This is the start document.
+    It is based loosely on an actual faculty web site at Olympic College, though
+    it is fictitious and does not present real information, per se. 
+    
+    The code below is provided for your convenience and can be used to
+    help you when you produce your working prototype. 
+    
+    By the time you get to the final draft, it will need to show everything about the
+    site as you would expect it to be completed. There is help available
+    for coding if you need it.
+
+    Feel free to modify the code to make whatever page changes you wish.     
+	You will not be graded on proper coding practices; however, following best practices,
+	such as indenting nested elements is advised.
+	
+	Notice there is one external style sheet (styles.css). This is where most of the style changes will
+	occur. Be sure to spend time with the HTML first so that you are familiar with the page
+	structure and element names.
+	
+	=====================================================================================
+	
+					How to Read the HTML Page Structure:
+	
+	* The document "body" includes 3 main parts: header, section#content, and footer. 
+		(Don't confuse header and head elements. The header is a child of (appears under) the body. The head is a sibling of (appears above) the body.)
+	
+    1) The header contains the nav and top-level logo, etc., and appears at the top of the page. 
+	2) The footer is fairly straight-forward and appears at the bottom of the page. 
+	3) The section#content is the main content area and is split in two with two main parts: aside and div#mainContent.
+		a) The aside appears on the left and has two sections for contact info; 
+		b) The div#mainContent appears on the rigfht and has five sub-sections (welcome, courses, mailing, links, certs). 
+		
+	=====================================================================================
+	
+					Instructions:
+
+	You are not stuck with this particular page structure. It represents the original design. 
+	Your own design/layout may look quite a bit different from this. Your wireframes should guide you.
+	Refer to your wireframes to produce the page according to your designs. 
+	Rework the code below as needed to present the content according to your wireframe design ideas.
+    
+-->
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name=description content="Class materials for courses taught by Sally Eruditorem  at Olympic College">
+        <meta name=keywords content="Olympic">
+		<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- ensures scalability -->
+		
+		<title>Sally Eruditorem - Home</title>
+		<link href="styles.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>	
+		<header>
+			<img src="images/OC_logo_color.png" alt="OC Logo" />
+			<h1 id="professor">Sally's Page</h1>
+			<nav>
+				<ul>
+					<li id="selected"><a href="home.htm">Courses</a></li>
+					<li><a href="certifications.htm">Certifications</a></li>
+				</ul>
+			</nav> 
+		</header> 
+		
+		<section id="content">
+			<aside>
+			
+			   <section>
+					<h1>A little about me: </h1>
+					<p>I like cats</p>
+					<p><img src="images/Gerald-G-Cartoon-Cat-Sitting.svg" /></p>
+			   </section>
+			   
+			   <hr />
+			   
+			   <section id="CIS_links">
+				   <h1>Important Links&#10004;&#10004;&#10004;&#10004;</h1>
+					
+					<p>&#10045;<a href="#">CIS Digital Advisor</a>
+						This is where you will learn all sorts of really
+						important information about course and program
+						offerings in CIS. This is a faculty-supported site
+						and the information contained on it is subject to
+						change. Keep up to date with advising dates, and
+						learn about the CIS program, including its faculty
+						members.</p>
+					
+					<p>&#10045;<a href="#">To see other CIS faculty pages</a>
+						This is the official CIS program page. It is maintained
+						by the college, and it shows details about the degree
+						and certificates related to CIS. This information matches
+						what you find in the college catalog. Some of the information
+						may not be current, since the catalog is a printed document
+						that changes just once per year. For the most up-to-date news
+						on program offerings, visit the CIS Digital Advisor page.</p>
+
+					<p>&#10045;<a href="#">To work on your Educational Plan</a>
+						Everyone needs an educational plan. This link takes you to the 
+						colllege's online planning tool, where you can map out your degree or 
+						certificate classes. Not all classes run every quarter, so it's good
+						to create a plan that includes prerequisites, etc. That way, you can
+						prepare for graduating on time.</p>
+			   </section>
+
+			   <hr />
+			   
+			   <section>
+					<h1>Questions? <br />
+					DON'T HESITATE TO CONTACT ME!!!!! </h1>
+			   </section>
+			   
+			   <section id ="contactInfo">
+					<img src="images/avatar.jpg" alt="Sally's avatar picture" /> 
+					<p>Telephone: 360-475-7999; 
+					Email: seditorium@olympic.edu; 
+					Office: Tec 200 Bremerton campus</p>
+			   </section>
+			   
+			   <hr />
+			   
+			   <section id="welcome">
+					<p>Welcome! I am Sally Eruditorum, a faculty member. I currently teach Computer Information Systems (CIS) classes. If you have any questions about my website or courses, <span>PLEASE EMAIL ME!!! &#9743; &#9743; &#9743; &#9743;</span></p>
+				</section>
+			   
+			</aside>
+
+			<div id="mainContent">
+			
+				<section id="certs">
+					<h1>Certifications can help you...</h1>
+					<p>...by giving you a competitve edge for promotions; 
+						by landing you a job; by demonstrating core skills; 
+						by improving your learning curve; 
+						by giving you the language to use; 
+						by adding to your skills</p> 
+					<p>&#10173;&#10173;&#10173;&#10173;&#10173;&#10173;<a href="certifications.htm">Consider earning a certification. </a>&lAarr;&lAarr;&lAarr;&lAarr;<span>CLICK THIS LINK TO GO TO THE CERTIFICATION PAGE!!!</span></p>
+				</section>
+					
+				<section id="mailing">
+						<h1>Mailing List &#10004; &commat; &commat; &commat; &commat; &commat;</h1>
+						
+						<p>Current or former OC CIS students:
+						<span>Fill out the form below to join my mailing list.</span>
+						I send out periodic emails announcing: industry news, area job openings, and items of interests related to technology. Once you join the list, you will receive emails from me every once in awhile. You can opt out any time, and I won't share your email with anyone. It's a private list used only by me to send information and relevant news, etc. to students and former students. Anyone can opt in; the list is not limited to student email addresses. Feel free to use whatever email you check most often. Your privacy is important to me, so don't worry about your email being used for any other purposes than this. You can trust me with your information in that regard, and I won't bombard you with trivial or unrelated information. Remember that you can opt out any time by sending me an email and asking
+						to be dropped from the list.</p>
+						
+						<form id="mailForm" name="mailForm" action="" method="post">
+						
+							
+							<label for="fName">First Name: </label>
+								<input name="fName" id="fName"
+									placeholder="Sally" />
+							
+									
+								<label for="lName">Last Name: </label>
+								<input name="lName" id="lName"
+									placeholder="Eruditorum" />
+							
+								<label for="email">E-mail: </label>
+								<input name="email" id="email" type="email" required="required" />
+							
+								<input type="submit" value="Okay" />
+								<input type="reset" value="Not Okay" />
+							
+						</form>	
+				</section>
+				
+				<section id="links">
+					<h1>Links For Fun &#10004;&#10004;&#10004;&#10004;&#10004;</h1>
+					<p id="headerHelper">(Click each link to open website)</p>
+				
+					<h2>&#10004;20 Things Video</h2>
+					<p><a href="http://www.20thingsilearned.com/en-US#/en-US/home/">
+						http://www.20thingsilearned.com/en-US#/en-US/home/</a></p>
+					
+					<h2>&#10004;The 101 Most Useful Websites </h2>
+					<p><a href="http://www.labnol.org/internet/101-useful-websites/18078/">
+						http://www.labnol.org/internet/101-useful-websites/18078/</a></p>
+						
+					<h2>&#10004;7 Things Smart Learners Do Differently</h2> 
+					<p><a href="http://www.lifehack.org/articles/productivity/7-things-smart-learners-differently.html">
+						http://www.lifehack.org/articles/productivity/7-things-smart-learners-differently.html</a></p>
+
+					<h2>&#10004;TED Ideas worth spreading</h2>
+					<p><a href="http://www.ted.com/">http://www.ted.com/</a></p>
+
+					<h2>&#10004;19 Websites That Will Make You Smarter in Every Way</h2> 
+					<p><a href="http://www.lifehack.org/articles/productivity/21-websites-that-will-make-your-smarter-every-way.html">
+						http://www.lifehack.org/articles/productivity/21-websites-that-will-make-your-smarter-every-way.html</a></p>	
+						
+					<h2>&#10004;21 Most Useful Websites Every College Student Needs To Know</h2> 
+					<p><a href="http://www.lifehack.org/articles/technology/21-most-useful-websites-every-college-student-needs-know.html">
+						http://www.lifehack.org/articles/technology/21-most-useful-websites-every-college-student-needs-know.html</a></p>
+	
+					<h1>Resource Links&#10004;&#10004;&#10004;&#10004;&#10004;</h1>
+					<p id="headerHelper">(Click each link to open website)</p>
+				
+					<h2>&#10004;What Browser Am I Using?</h2> 
+					<p><a href="http://www.whatbrowser.org/">http://www.whatbrowser.org/</a></p>
+
+					<h2>&#10004;Top IT Certs for 2013</h2> 
+					<p><a href="http://www.techrepublic.com/blog/career/the-top-five-in-demand-it-certifications-for-2013/4756?tag=nl.e101">
+						http://www.techrepublic.com/blog/career/the-top-five-in-demand-it-certifications-for-2013/4756?tag=nl.e101</a></p> 
+
+					<h2>&#10004;I Wish I Knew These 15 Google Chrome Extensions Earlier</h2> 
+					<p><a href="http://www.lifehack.org/articles/technology/wish-knew-these-15-google-chrome-extensions-earlier.html">
+						http://www.lifehack.org/articles/technology/wish-knew-these-15-google-chrome-extensions-earlier.html</a></p>
+				</section>	
+
+				<section id="courses">
+					<h1>Courses I Teach: &#10004;</h1>
+
+						<article>
+								<p>CIS110 - Information Systems Concepts
+								<strong>Book:</strong> Computer Concepts 12th edition;
+								<strong>ISBN:</strong> 13-222-222-222-2222;
+								<strong>Prerequisite:</strong> Basic knowledge of Microsoft Windows. Competent keyboard skills.
+								<br />
+								Explore the fundamentals of information processing. Topics include: hardware, software, networking, the Internet, programming, and databases.</p>
+						</article>
+
+						<article>
+							<p>CIS125 - Intro to Dreamweaver
+							<strong>Book:</strong> Adobe Dreamweaver Revealed;
+							<strong>ISBN:</strong> 13-222-222-222-2222;                
+							<strong>Prerequisite:</strong> Basic knowledge of file management.
+							<br />
+							Explore the fundamentals of Dreamweaver to create web pages.</p>
+						</article>
+
+						<article>
+							<p>CIS150 - Survey of Computing (IC3)
+					  
+								<strong>Book:</strong> IC3 3rd edition;
+								<strong>ISBN:</strong> 13-222-222-222-2222; 
+								<strong>Prerequisite:</strong> none.
+								<br />
+								Learn basic concepts of word processing, spreadsheets, presentations, Internet, operating systems, and hardware using Internet and Computing Core Certification standards.</p>
+						</article>		
+				</section>
+		
+				
+			</div>
+		</section>
+		                          
+        <footer>Olympic College &bull; 
+			1600 Chester Ave &bull; 
+			Bremerton WA 98337-1699</footer>
+    </body>
+</html>
+
+
