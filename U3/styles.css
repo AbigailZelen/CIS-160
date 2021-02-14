@@ -162,13 +162,11 @@ table img {
 */
 
 footer {
-	clear: both;
-	display: block; 
-	padding: 20px 0px 20px 0px;
+	position: fixed;
+	background-color: grey;
+	padding-top: 10px;
 	text-align: center; 
 }
-
-
 
 
 
