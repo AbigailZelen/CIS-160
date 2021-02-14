@@ -28,7 +28,7 @@
 
 .column {
 	float: left;
-	width: 33%;
+	width: 32%;
 	padding: 6px;
   }
   
@@ -46,7 +46,6 @@
 body * {  
 	margin: 0px;
 	padding: 0px;
-	vertical-align: baseline;
 }
 
 a {						
