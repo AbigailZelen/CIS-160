@@ -67,8 +67,8 @@ ul li a {
 body aside {
    position: relative;
 }
-aside{
-	margin: 5px;
+aside {
+	padding: 5px;
 }
 
 
@@ -89,7 +89,7 @@ aside{
 
 header {
 	background-color: lightgrey;
-	padding: 6px;
+	padding: none;
 	margin: none;
 	left: 0;
 	top: 0;
