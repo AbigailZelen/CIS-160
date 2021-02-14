@@ -52,7 +52,7 @@ a {
 	text-decoration: underline;
 }
 
-a.nav {
+.nav a {
 	text-decoration: none;
 }
 
