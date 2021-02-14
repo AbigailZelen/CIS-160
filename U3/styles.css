@@ -88,9 +88,12 @@ header h1 {
    	=============================
 */
 
+#professor {
+	float: left;
+}
 #tagline {
 	float: left;
-	font-size: em1;
+	font-size: em 0.5;
 	font-style: italic;
 }
 
