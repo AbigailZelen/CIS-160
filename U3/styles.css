@@ -78,6 +78,8 @@ body {
 	font-size: 2em;
 	position: fixed;  
     left: 50%; 
+	right: 50%;
+	top: auto;
     text-align: center;
 }
 
