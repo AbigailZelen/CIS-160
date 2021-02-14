@@ -28,8 +28,8 @@
 
 .column {
 	float: left;
-	width: 33.33%;
-	padding: 8px;
+	width: 30.00%;
+	padding: 12px;
   }
   
   .row:after {
