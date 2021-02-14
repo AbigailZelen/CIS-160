@@ -75,11 +75,9 @@ body {
 */
 
 #professor {
-	font-size: 2em;
-	position: fixed;  
-    left: 50%; 
-	right: 50%;
-	top: auto;
+	font-size: 2em; 
+    left: 48%; 
+	right: 48%;
     text-align: center;
 }
 
