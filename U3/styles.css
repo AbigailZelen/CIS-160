@@ -88,6 +88,12 @@ header h1 {
    	=============================
 */
 
+.tagline {
+	float: left;
+	font-size: em1;
+	font-style: italic;
+}
+
 nav {
 	margin-top: 10px;
 }
