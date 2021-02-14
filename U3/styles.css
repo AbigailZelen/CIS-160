@@ -61,7 +61,6 @@ a {
 */
 
 body {
-   max-width: 80%;
    margin: 0px auto;
    position: relative;
 }
@@ -111,16 +110,7 @@ nav li {
    	=============================
 */
 
-aside {
-	float: left;
-	width: 30%; 
-	padding: 5px;
-} 
 
-
-aside section p img {
-	width: 50%;
-}
 
 section#content {
 	position: relative;
@@ -129,7 +119,6 @@ section#content {
 
 section#mailing, section#links {
 	float: left;
-	width: 23%;
 }
 
 h1 {
