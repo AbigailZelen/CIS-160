@@ -109,9 +109,9 @@ nav.horizontal ul li{
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    float: left;
+    float: right;
     background-color:lightgray;
-    width: 24%;
+    width: 15%;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     margin: 0.1%;
