@@ -29,7 +29,7 @@
 .column {
 	float: left;
 	width: 33.33%;
-	padding: 12px;
+	padding: 8px;
   }
   
   .row:after {
@@ -133,8 +133,14 @@ section#mailing, section#links {
 	width: 23%;
 }
 
-section h2 {
+h1 {
 	font-size: 1em;
+}
+h2 {
+	font-size: 2em;
+}
+h3 {
+	font-size: 3em;
 }
 
 
