@@ -74,9 +74,13 @@ body {
    	=============================
 */
 
-header h1 {
-	float: right;
-	font-size: 150%;
+#professor {
+	float: Center;
+	font-size: 2em;
+}
+
+header {
+	background-color: lightgrey;
 }
 
 
