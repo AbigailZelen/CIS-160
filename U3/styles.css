@@ -118,9 +118,6 @@ aside {
 	padding: 5px;
 } 
 
-aside hr {
-	width: 95%;
-}
 
 aside section p img {
 	width: 50%;
@@ -130,9 +127,6 @@ section#content {
 	position: relative;
 }
 
-p span {
-	font-size: 1.7em;
-}
 
 section#mailing, section#links {
 	float: left;
@@ -142,13 +136,6 @@ section#mailing, section#links {
 section h2 {
 	font-size: 1em;
 }
-
-
-#mailing form {
-	margin-top: 10px;
-	text-align: center;
-}
-
 
 
 
