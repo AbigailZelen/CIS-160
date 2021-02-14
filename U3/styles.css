@@ -65,8 +65,10 @@ ul li a {
 */
 
 body {
-   margin: 5px;
    position: relative;
+}
+aside{
+	margin: 5px;
 }
 
 
