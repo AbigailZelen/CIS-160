@@ -83,12 +83,13 @@ body {
     left: 48%; 
 	right: 48%;
     text-align: center;
-	margin: none;
 }
 
 header {
 	background-color: lightgrey;
 	padding: 5px;
+	margin: none;
+	width: 100%;
 }
 
 #tagline {
