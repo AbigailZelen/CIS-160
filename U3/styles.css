@@ -89,7 +89,8 @@ header h1 {
 */
 
 #professor {
-	float: left;
+	float: right;
+	font-size: em 0.5;
 }
 #tagline {
 	float: left;
