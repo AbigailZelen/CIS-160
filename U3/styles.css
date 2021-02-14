@@ -89,6 +89,8 @@ aside{
 
 header {
 	background-color: lightgrey;
+	padding: none;
+	margin: none;
 }
 
 #tagline {
