@@ -136,6 +136,7 @@ nav.horizontal ul li {
     border-left: solid black;
 	border-right: solid black;
 	border-top: solid black;
+	padding-bottom: 3px;
 }
 nav.horizontal:visited a:active, nav.horizontal ul li {
     background-color: white;
