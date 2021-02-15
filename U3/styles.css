@@ -140,7 +140,6 @@ nav.horizontal ul li {
 nav.horizontal:visited a:active, nav.horizontal ul li {
     background-color: white;
     color: black;
-	padding-bottom: 3px;
 }
 nav.horizontal::after {
     clear: both;
